@@ -6,15 +6,15 @@
 
 ## 进入tmux窗口
 
-![](https://cdn.nlark.com/yuque/0/2025/png/43278601/1758792987775-1340d138-2fb1-458f-ae35-90af35dacc40.png)
+![](./images/tmux_1.png)
 
 ## 在tmux窗口中执行python命令/也能执行bash命令
 
-![](https://cdn.nlark.com/yuque/0/2025/png/43278601/1758793043647-b1bcb884-bafd-4bff-a235-04b0bb84f66e.png)
+![](./images/tmux_2.png)
 
 ## 运行完任务后kill这个tmux进程，对应于普通终端里的关闭
 
-![](https://cdn.nlark.com/yuque/0/2025/png/43278601/1758793144068-abc1a7bb-b316-493a-9706-9438df48d1c5.png)
+![](./images/tmux_3.png)
 
 现在你已经会最基本的tmux操作了
 

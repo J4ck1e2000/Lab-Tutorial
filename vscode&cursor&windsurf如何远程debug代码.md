@@ -7,7 +7,7 @@ comm -23 <(seq 49152 65535 | sort) <(ss -tuln | awk '{print $4}' | cut -d':' -f2
 
 3. 在vscode&cursor&windsurf里创建launch.json文件
 
-![](https://cdn.nlark.com/yuque/0/2025/png/43278601/1747383176396-48b2cb44-a39a-4d3d-9552-6e3b2b221779.png)
+![](./images/launch_1.png)
 
 ```json
 {
@@ -30,7 +30,7 @@ comm -23 <(seq 49152 65535 | sort) <(ss -tuln | awk '{print $4}' | cut -d':' -f2
 }
 ```
 
-4. 启动python文件
+1. 启动python文件
 
 ```bash
 python -m debugpy --listen 空闲端口号 --wait-for-client your_python_file.py \  				
